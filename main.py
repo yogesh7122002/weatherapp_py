@@ -11,9 +11,7 @@
 #     print(response["location"])
 #     print("\t\tWeather Information\t\t")
 #     print(f"city name : {response["location"]["name"]}")
-#     print(f"Temprature : {response["current"]["temp_c"]C}")
-    
-
+#     print(f"Temprature : {response["current"]["temp_c"]C}")    
 
 # if "current" in response:
 #     print("Hey")
