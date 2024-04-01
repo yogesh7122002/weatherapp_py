@@ -41,7 +41,9 @@ try:
         # print(data["location"])
         print("\t\tWeather Information\t\t")
         print(f"City Name: {data['location']['name']}")
-        print(f"Temperature: {data['current']['temp_c']}°C")  # Corrected typo (temp_c)
+        print(f"Temperature: {data['current']['temp_c']}°C")
+        print(f"Weather Condition: {data['current']['condition']['text']}")
+
     else:
         print("Error: Location information not found in the response.")
 
